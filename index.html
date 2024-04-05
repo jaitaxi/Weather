@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<style>
+    body {
+        background-color: #202B3C;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400;
+        color: white;
+    }
+
+    form {
+        align-items: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form input{
+        display: inline-block;
+        margin: 5px;
+        border-radius: 5px;
+        height: 30px;
+        width: 300px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    #weather {
+        text-align: center;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+        padding: 8px 16px;
+        background-color: #202B3C;;
+        color: #fff;
+        border: 2px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #d8dde2;
+        color: #202B3C;
+    }
+    #container{
+        background-color: #0B121E;
+        width: 600px;
+        height: 600px;
+        margin: auto;
+        border-radius: 30px;
+        text-align: center;
+        padding: 5px;
+    }
+    h2{
+        font-size:50px;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size:50px;
+    }
+
+    h3{
+        font-style: italic;
+        color: #666;
+    }
+    img{
+        width:100px;
+    }
+</style>
+
+<body>
+    <form id="weather">
+        <input type="text" id="cityname" />
+        <button type="submit">Get Weather</button>
+    </form>
+    <div id="container">
+        
+    </div>
+
+
+
+</body>
+<script src="./index.js"></script>
+
+</html>
